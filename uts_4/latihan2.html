@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tambah Paragraf</title>
+</head>
+<body>
+<h3>Tombol Paragraf</h3>
+  <button id="btn1" onclick="fungsi1()">Paragraf 1</button>
+  <button id="btn2" onclick="fungsi2()">Paragraf 2</button>
+  
+  <div id="container-paragraf"></div>
+
+  <script>
+    const container = document.getElementById("container-paragraf");
+
+    function fungsi1() {
+      
+      container.insertAdjacentHTML('beforeend', '<p>Paragraf 1</p>');
+    }
+
+    function fungsi2() {
+      
+      container.insertAdjacentHTML('beforeend', '<p>Paragraf 2</p>');
+    }
+  </script>
+
+</body>
+</html>
