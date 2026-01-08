@@ -7,7 +7,7 @@ def main():
 
     while True:
         print("\n========================")
-        print("    PROGRAM NILAI CLI   ")
+        print("    MENU   ")
         print("========================")
         print("1. Konversi Nilai ke Label")
         print("2. Konversi Label ke Bobot")
@@ -15,7 +15,6 @@ def main():
         print("4. Lihat Total & IPS")
         print("5. Bersihkan Layar")
         print("6. Exit")
-        
         pilihan = input("\nPilihan: ")
 
         if pilihan == '1':
